@@ -8,21 +8,23 @@ plt = platform.system()
 if plt == 'Linux': pathlib.WindowsPath = pathlib.PosixPath
 
 # title
-st.title('교통 수단을 분류하는 모델')
+st.title('Transportni klassifikatsiya qiluvchi model')
 
-# 사진 입력
-file = st.file_uploader('사진 입력',type=['png','jpeg','gif','svg'])
+
+# rasmni joylash
+file = st.file_uploader('Rasm yuklash', type=['png', 'jpeg', 'gif', 'svg'])
 if file:
     st.image(file)
     # PIL convert
     img = PILImage.create(file)
+    # model
     model = load_learner('transport_model.pkl')
 
-    #prediction
-    pred,pred_id,probs = model.predict(img)
-    st.success(f"예측 결과: {pred}")
-    st.info(f"확률: {probs[pred_id]*100:.1f}%")
-    
+    # prediction
+    pred, pred_id, probs=model.predict(img)
+    st.success(f"Bashorat: {pred}")
+    st.info(f'Ehtimollik: {probs[pred_id]*100:.1f}%')
+
     # plotting
-    fig = px.bar(x=probs*100, y=model.dls.vocab)
+    fig=px.bar(x=probs*100, y=model.dls.vocab)
     st.plotly_chart(fig)

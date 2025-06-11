@@ -1,4 +1,3 @@
-from fastai.vision.all import load_learner
 import streamlit as st
 from fastai.vision.all import *
 import pathlib

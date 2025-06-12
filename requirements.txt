@@ -1,5 +1,5 @@
 streamlit
-fastai
+fastai<2.8.0
 torch
 Pillow
 plotly

@@ -3,7 +3,7 @@
 
 This is a deep learning-based web application that classifies different types of transport vehicles (such as cars, airplanes, bicycles, etc.) from images. The project is built using the **fastai** framework for model training and **Streamlit** for the web interface.
 
-You can try the app live here 👉 **[Live Demo](https://transportsclassification.streamlit.app)**
+You can try the app live here 👉 **[Live Demo](https://islom-transport-classifier.streamlit.app/)**
 
 ---
 
@@ -25,7 +25,7 @@ The goal of this project is to demonstrate how deep learning models can be integ
 
 ## 🚀 Live Demo
 
-🔗 **[Click to Open the App](https://transportsclassification.streamlit.app)**  
+🔗 **[Click to Open the App](https://islom-transport-classifier.streamlit.app/)**  
 📸 Try uploading an image of a car, bike, or plane!
 
 ---
@@ -93,7 +93,7 @@ streamlit run app.py
 **Islom aka (Islom9899)**  
 🎓 Computer Engineering graduate — Yeungnam University  
 🎯 AI | Deep Learning | Web App Integration  
-📫 [Add your email or LinkedIn here for portfolio]
+📫 [mansurovislom2@gmail.com]
 
 ---
 

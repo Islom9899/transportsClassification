@@ -97,12 +97,6 @@ streamlit run app.py
 
 ---
 
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
-
----
-
 ## 🙌 Acknowledgements
 
 - Thanks to the `fastai` and `Streamlit` communities.

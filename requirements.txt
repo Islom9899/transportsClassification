@@ -1,5 +1,4 @@
 streamlit
-fastai>=2.7
-torch>=1.13
-plotly
+fastai
+torch
 Pillow
